@@ -4,7 +4,7 @@ require "carmen/rails/version"
 
 Gem::Specification.new do |s|
   s.name        = "carmen-rails"
-  s.version     = Carmen::Rails::VERSION
+  s.version     = '1.0.0.fede'
   s.authors     = ["Jim Benton"]
   s.email       = ["jim@autonomousmachine.com"]
   s.homepage    = "http://github.com/jim/carmen-rails"
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails"
-  s.add_dependency "carmen", "~> 1.0.0.beta3"
+  s.add_dependency "carmen", "~> 1.0.0.fede"
 
   s.add_development_dependency "minitest"
 end
